@@ -7,6 +7,7 @@ Write a program that writes all the numbers from 1 to 100, with some exceptions:
 
 Use console.log() to write the proper output to the command line.
 
+.
 **/
 
 // 1
