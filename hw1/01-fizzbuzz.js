@@ -26,7 +26,7 @@ Use console.log() to write the proper output to the command line.
 // fizzbuzz
 // ...
 
-for (let j = 1; j <= 100; j++) 
+for (let j = 1; j <= 100; j += 1) 
 {
   if (j % 3 === 0 && j % 5 === 0) {
     console.log('fizzbuzz');
