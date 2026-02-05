@@ -4,7 +4,7 @@
 
 const calculateChange = function calculateChange(amount) {
   if (amount > 100) {
-    return " Error: the number is too large.";
+    return " Error: the number is too large.7";
   }
 
   if (amount < 0) {
