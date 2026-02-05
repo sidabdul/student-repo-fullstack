@@ -2,7 +2,7 @@
 
 // Add your function here
 
-function calculateChange(amount) {
+const calculateChange = function calculateChange(amount) {
   if (amount > 100) {
     return " Error: the number is too large.";
   }
@@ -32,7 +32,7 @@ function calculateChange(amount) {
   let pennies = cents;
 
   return `$${amount.toFixed(2)} ==> ${dollars} dollars, ${quarters} quarters, ${dimes} dimes, ${nickels} nickels, ${pennies} pennies`;
-}
+};
 
 // Sample test cases
 console.log(calculateChange(4.62));
